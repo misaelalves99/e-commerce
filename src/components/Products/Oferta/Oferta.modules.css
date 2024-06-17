@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* SECTION OFERTA */
+
+.section-oferta {
+    width: 100%;
+    background-color: rgb(147, 147, 147);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-oferta {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-off-desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-anun {
+    width: 40%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-anun {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-anun h1{
+    font-size: 2em;
+    margin: 10px;
+}
+
+.titulo-anun h2{
+    font-size: 1em;
+    margin: 10px;
+}
+
+.info-comp {
+    display: flex;
+    flex-direction: column;
+}
+
+.ic {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.ic h3 {
+    font-size: 1em;
+    color: black;
+}
+
+.icon-ic {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 2em;
+    border-radius: 28px;
+    background-color: orange;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+

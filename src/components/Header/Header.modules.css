@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.bar1 {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 75px;
+    padding-left: 75px;
+    background-color: #FFB776;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo h1 {
+    font-size: 1em;
+}
+
+.pesquisar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    /* background-color: #b5b5b5; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrinho-u {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 28px;
+    background-color: rgb(255, 119, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrinho-u a {
+    color: black;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.favoritos-u {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 18px;
+    border-radius: 28px;
+    background-color: rgb(255, 119, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.favoritos-u a {
+    color: black;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.perfil-u {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 18px;
+    border-radius: 28px;
+    background-color: rgb(255, 119, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-u a {
+    color: black;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.bar2 {
+    width: 100%;
+    height: 4rem;
+    background-color: #e9e9e9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar ul li {
+    color: rgb(31, 31, 31);
+    margin: 10px;
+}
+
+.navbar ul li a {
+    color: rgb(31, 31, 31);
+    margin: 10px;
+}

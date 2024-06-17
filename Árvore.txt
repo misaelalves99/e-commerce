@@ -1,0 +1,413 @@
+portfolio-project/
+├── public/
+│   ├── assets/
+│   │   ├── favicon.ico
+│   │   └── ...
+│   ├── images/
+│   │   ├── imagem.jpg
+│   │   ├── imagem.png
+│   │   └── ...
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── adapters/
+│   │   ├── userAdapter.js
+│   │   ├── productAdapter.js
+│   │   └── ...
+│   ├── analytics/
+│   │   ├── googleAnalytics.js
+│   │   ├── mixpanel.js
+│   │   └── ...
+│   ├── apis/
+│   │   ├── authApi.js
+│   │   ├── CallAPI.js
+│   │   ├── configAxios.js
+│   │   ├── productsApi.js
+│   │   ├── userApi.js
+│   │   └── ...
+│   ├── assets/
+│   │   ├── imagem.jpg
+│   │   ├── imagem.png
+│   │   ├── vetor.svg
+│   │   └── ...
+│   ├── auth/
+│   │   ├── Login.jsx
+│   │   ├── LoginScreen.jsx
+│   │   ├── RegisterScreen.jsx
+│   │   ├── Signup.jsx
+│   │   └── ...
+│   ├── bindings/
+│   │   ├── userBinding.js
+│   │   ├── productBinding.js
+│   │   └── ...
+│   ├── build/
+│   │   ├── buildScript.js
+│   │   ├── buildConfig.js
+│   │   └── ...
+│   ├── components/
+│   │   ├── Header/
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   ├── Navbar/
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   ├── Layout/
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   ├── Cart/
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   ├── Shop/
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   ├── Auth/
+│   │   │   ├── Login.jsx
+│   │   │   ├── LoginScreen.jsx
+│   │   │   ├── RegisterScreen.jsx
+│   │   │   ├── Signup.jsx
+│   │   │   └── ...
+│   │   ├── Admin/
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   ├── context/
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   └── ...
+│   ├── config/
+│   │   ├── axiosClient.jsx
+│   │   └── ...
+│   ├── constants/
+│   │   ├── actionTypes.js
+│   │   ├── apiEndpoints.js
+│   │   ├── categories.js
+│   │   ├── Chart.js
+│   │   ├── Data.js
+│   │   ├── tableData.js
+│   │   └── ...
+│   ├── containers/
+│   │   ├── UserContainer.jsx
+│   │   ├── ProductContainer.jsx
+│   │   └── ...
+│   ├── context/
+│   │   ├── authProvider.jsx
+│   │   ├── cartProvider.jsx
+│   │   ├── productsProvider.jsx
+│   │   └── ...
+│   ├── css/
+│   │   ├── styles.css
+│   │   └── ...
+│   ├── cypress/
+│   │   ├── integration/
+│   │   │   ├── login.spec.js
+│   │   │   ├── signup.spec.js
+│   │   │   └── ...
+│   │   ├── support/
+│   │   │   ├── commands.js
+│   │   │   ├── index.js
+│   │   │   └── ...
+│   │   └── ...
+│   ├── data/
+│   │   ├── data.jsx
+│   │   ├── products.jsx
+│   │   └── ...
+│   ├── decorators/
+│   │   ├── authRequired.ts
+│   │   ├── logExecutionTime.ts
+│   │   ├── withLogging.ts
+│   │   ├── withErrorHandling.ts
+│   │   └── ...
+│   ├── documentation/
+│   │   ├── architecture.md
+│   │   ├── api.md
+│   │   └── ...
+│   ├── elements/
+│   │   ├── Button.jsx
+│   │   ├── Input.jsx
+│   │   └── ...
+│   ├── experiments/
+│   │   ├── newFeatureExperiment.js
+│   │   ├── abTestExperiment.js
+│   │   └── ...
+│   ├── factories/
+│   │   ├── userFactory.js
+│   │   ├── productFactory.js
+│   │   └── ...
+│   ├── filters/
+│   │   ├── searchFilter.js
+│   │   ├── dateFilter.js
+│   │   └── ...
+│   ├── firebase/
+│   │   ├── config.js
+│   │   ├── firebaseConfig.js
+│   │   ├── firebaseService.js
+│   │   ├── providers.js
+│   │   ├── upload.js
+│   │   └── ...
+│   ├── features/
+│   │   ├── authentication/
+│   │   │   ├── AuthService.js
+│   │   │   ├── Login.jsx
+│   │   │   ├── useAuth.js
+│   │   │   └── ...
+│   │   ├── userProfile/
+│   │   │   ├── UserProfile.jsx
+│   │   │   ├── userProfileService.js
+│   │   │   ├── useUserProfile.js
+│   │   │   └── ...
+│   │   └── ...
+│   ├── forms/
+│   │   ├── LoginForm.jsx
+│   │   ├── SignupForm.jsx
+│   │   └── ...
+│   ├── generators/
+│   │   ├── componentGenerator.js
+│   │   ├── reduxGenerator.js
+│   │   └── ...
+│   ├── guards/
+│   │   ├── AuthGuard.jsx
+│   │   ├── RoleGuard.jsx
+│   │   └── ...
+│   ├── helpers/
+│   │   ├── arrayHelpers.js
+│   │   ├── helpers.js
+│   │   ├── filterProductsCategory.js
+│   │   ├── loadProducts.js
+│   │   ├── stringHelpers.js
+│   │   └── ...
+│   ├── hocs/
+│   │   ├── withAuth.js
+│   │   ├── withLogger.js
+│   │   └── ...
+│   ├── hooks/
+│   │   ├── useAuth.jsx
+│   │   ├── useCart.jsx
+│   │   ├── useCounter.js
+│   │   ├── useFetch.jsx
+│   │   ├── useMobile.jsx
+│   │   ├── useProducts.jsx
+│   │   └── ...
+│   ├── i18n/
+│   │   ├── en.json
+│   │   ├── pt.json
+│   │   └── ...
+│   ├── icons/
+│   │   ├── LoginEmailIcon.jsx
+│   │   ├── LoginGoogleIcon.jsx
+│   │   ├── LoginPassIcon.jsx
+│   │   ├── LoginUserIcon.jsx
+│   │   ├── LoginWarningIcon.jsx
+│   │   └── ...
+│   ├── images/
+│   │   ├── imagem.jpg
+│   │   ├── imagem.png
+│   │   └── ...
+│   ├── lib/
+│   │   ├── thirdPartyLibrary.js
+│   │   └── ...
+│   ├── layout/
+│   │   ├── AuthLayout.jsx
+│   │   ├── MainLayout.jsx
+│   │   ├── ProtectedRoute.jsx
+│   │   └── ...
+│   ├── locales/
+│   │   ├── en-US.js
+│   │   ├── pt-BR.js
+│   │   └── ...
+│   ├── local-storage/
+│   │   ├── setItem.js
+│   │   ├── getItem.js
+│   │   └── ...
+│   ├── meta/
+│   │   ├── seoConfig.js
+│   │   ├── openGraphConfig.js
+│   │   └── ...
+│   ├── middleware/
+│   │   ├── loggerMiddleware.js
+│   │   ├── errorMiddleware.js
+│   │   └── ...
+│   ├── migrations/
+│   │   ├── createUsersTable.js
+│   │   ├── addProfileColumn.js
+│   │   └── ...
+│   ├── mixins/
+│   │   ├── flexboxMixin.scss
+│   │   ├── typographyMixin.scss
+│   │   └── ...
+│   ├── mocks/
+│   │   ├── userMocks.js
+│   │   ├── productMocks.js
+│   │   └── ...
+│   ├── modals/
+│   │   ├── ConfirmModal.jsx
+│   │   ├── InfoModal.jsx
+│   │   └── ...
+│   ├── navigation/
+│   │   ├── AppRouter.jsx
+│   │   ├── Menu.jsx
+│   │   └── ...
+│   ├── notifications/
+│   │   ├── NotificationContext.js
+│   │   ├── NotificationProvider.jsx
+│   │   └── ...
+│   ├── oauth/
+│   │   ├── googleAuth.js
+│   │   ├── facebookAuth.js
+│   │   └── ...
+│   ├── observables/
+│   │   ├── userObservable.js
+│   │   ├── dataObservable.js
+│   │   └── ...
+│   ├── pages/
+│   │   ├── App/
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   ├── Admin/
+│   │   │   ├── Settings/
+│   │   │   │   └── index.jsx
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   ├── Home/
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   ├── Sobre/
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   ├── Contato/
+│   │   │   ├── index.jsx
+│   │   │   └── ...
+│   │   └── ...
+│   ├── partials/
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   └── ...
+│   ├── permissions/
+│   │   ├── canAccess.js
+│   │   ├── roles.js
+│   │   └── ...
+│   ├── pipes/
+│   │   ├── datePipe.js
+│   │   ├── currencyPipe.js
+│   │   └── ...
+│   ├── plugins/
+│   │   ├── customPlugin.js
+│   │   ├── thirdPartyPlugin.js
+│   │   └── ...
+│   ├── proptypes/
+│   │   ├── userPropTypes.js
+│   │   ├── productPropTypes.js
+│   │   └── ...
+│   ├── queries/
+│   │   ├── userQueries.js
+│   │   ├── productQueries.js
+│   │   └── ...
+│   ├── router/
+│   │   ├── AppRouter.jsx
+│   │   └── ...
+│   ├── sagas/
+│   │   ├── authSaga.js
+│   │   ├── userSaga.js
+│   │   └── ...
+│   ├── schemas/
+│   │   ├── userSchema.js
+│   │   ├── productSchema.js
+│   │   └── ...
+│   ├── scripts/
+│   │   ├── generateComponent.js
+│   │   ├── setupEnv.js
+│   │   └── ...
+│   ├── selectors/
+│   │   ├── userSelector.js
+│   │   ├── productSelector.js
+│   │   └── ...
+│   ├── sentry/
+│   │   ├── sentryConfig.js
+│   │   ├── sentryService.js
+│   │   └── ...
+│   ├── service/
+│   │   ├── api.js
+│   │   ├── authService.js
+│   │   ├── userService.js
+│   │   └── ...
+│   ├── state/
+│   │   ├── initialState.js
+│   │   ├── stateManager.js
+│   │   └── ...
+│   ├── store/
+│   │   ├── index.js
+│   │   ├── reducers.js
+│   │   └── ...
+│   ├── storybook/
+│   │   ├── Button.stories.jsx
+│   │   ├── Input.stories.jsx
+│   │   └── ...
+│   ├── storybook-static/
+│   │   ├── index.html
+│   │   ├── iframe.html
+│   │   └── ...
+│   ├── styles/
+│   │   ├── _global.css
+│   │   ├── _styles.css
+│   │   ├── _variables.scss
+│   │   ├── common/
+│   │   │   ├── _app.scss
+│   │   │   ├── _footer.scss
+│   │   │   ├── _header.scss
+│   │   │   ├── index.scss
+│   │   │   └── ...
+│   │   └── ...
+│   ├── subscriptions/
+│   │   ├── dataSubscription.js
+│   │   ├── notificationSubscription.js
+│   │   └── ...
+│   ├── svg/
+│   │   ├── icons/
+│   │   │   ├── close.svg
+│   │   │   ├── menu.svg
+│   │   │   └── ...
+│   │   ├── SvgIcon.jsx
+│   │   └── ...
+│   ├── templates/
+│   │   ├── index.jsx
+│   │   └── ...
+│   ├── tests/
+│   │   ├── App.test.js
+│   │   ├── Button.test.js
+│   │   └── ...
+│   ├── themes/
+│   │   ├── lightTheme.js
+│   │   ├── darkTheme.js
+│   │   └── ...
+│   ├── transitions/
+│   │   ├── FadeTransition.js
+│   │   ├── SlideTransition.js
+│   │   └── ...
+│   ├── types/
+│   │   ├── User.ts
+│   │   ├── Product.ts
+│   │   └── ...
+│   ├── utils/
+│   │   ├── datasForPayment/
+│   │   │   ├── datasForPayment.jsx
+│   │   │   └── ...
+│   │   ├── formatteDate/
+│   │   │   ├── formatteDate.jsx
+│   │   │   └── ...
+│   │   ├── formValidation/
+│   │   │   ├── formValidation.jsx
+│   │   │   └── ...
+│   │   ├── stepsDialog/
+│   │   │   ├── stepsDialog.jsx
+│   │   │   └── ...
+│   │   └── ...
+│   ├── validators/
+│   │   ├── emailValidator.js
+│   │   ├── passwordValidator.js
+│   │   └── ...
+│   ├── workers/
+│   │   ├── dataWorker.js
+│   │   ├── imageWorker.js
+│   │   └── ...
+│   ├── App.jsx
+│   ├── index.jsx
+│   └── ...
+└── ...
